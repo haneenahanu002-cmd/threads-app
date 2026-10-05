@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "id": "1",
       "name": "Laptop",
-      "price": 60000,
-      "category": "Electronics"
+      "price": 70000,
+      "category": "Electronics",
+      "id": "1"
     },
     {
       "id": "2",
@@ -53,6 +53,12 @@
       "price": 1000,
       "category": "Fashion",
       "id": "YJG10Viigyc"
+    },
+    {
+      "name": "jeans",
+      "price": 1500,
+      "category": "Fashion",
+      "id": "gN1e_9RLMa4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
