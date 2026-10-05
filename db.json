@@ -1,0 +1,59 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": 60000,
+      "category": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Watch",
+      "price": 2500,
+      "category": "Accessories"
+    },
+    {
+      "name": "Tab",
+      "price": 50000,
+      "category": "Electronics",
+      "id": "FQzOlA8h67M"
+    },
+    {
+      "name": "Lumen Necklace",
+      "price": 999,
+      "category": "Accessories",
+      "id": "KHF-ttMugc0"
+    },
+    {
+      "name": "Gold Heritage Choker Set",
+      "price": 9900,
+      "category": "Accessories",
+      "id": "oWhTsKSh3Kg"
+    },
+    {
+      "name": "Gala Microfiber Twist Mop",
+      "price": 547,
+      "category": "Home",
+      "id": "Vh6tMG-HrAY"
+    },
+    {
+      "name": "Luxury Velvet Ottoman Stool ",
+      "price": 1399,
+      "category": "Home",
+      "id": "ZjxScUHJAG0"
+    },
+    {
+      "name": "Wooden Tissue Paper Roll Holde",
+      "price": 299,
+      "category": "Home",
+      "id": "3YAetVO2hBM"
+    },
+    {
+      "name": "Kurta Sets for Women ",
+      "price": 1000,
+      "category": "Fashion",
+      "id": "YJG10Viigyc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
