@@ -15,7 +15,7 @@ function EditProduct() {
       try {
 
         const response = await axios.get(
-          `http://localhost:3000/products/${id}`
+          `https://threads-app-v7c2.onrender.com/products/${id}`
         );
         setProduct(response.data);
       } catch (error) {
@@ -37,7 +37,7 @@ function EditProduct() {
     e.preventDefault();
     try {
       await axios.put(
-        `http://localhost:3000/products/${id}`,
+        `https://threads-app-v7c2.onrender.com/products/${id}`,
         {
           name: product.name,
           price: Number(product.price),

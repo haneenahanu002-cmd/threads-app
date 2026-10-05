@@ -15,7 +15,7 @@ function ProductList() {
  const fetchProducts = async ()=>
  {
     try{
-        const response = await axios.get("http://localhost:3000/products");
+        const response = await axios.get("https://threads-app-v7c2.onrender.com/products");
         setProducts(response.data);
 
     } catch (error) {
@@ -39,7 +39,7 @@ function ProductList() {
     try {
 
       await axios.delete(
-        `http://localhost:3000/products/${id}`
+        `https://threads-app-v7c2.onrender.com/products/${id}`
       );
 
       fetchProducts();

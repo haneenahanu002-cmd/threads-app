@@ -19,7 +19,7 @@ function AddProduct() {
     e.preventDefault();
     try {
       await axios.post(
-        "http://localhost:3000/products",
+        "https://threads-app-v7c2.onrender.com/products",
         {
           name: product.name,
           price: Number(product.price),
